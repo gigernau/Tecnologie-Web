@@ -1,0 +1,135 @@
+  input{ 
+          background: #1C1C1C;
+          border: 1px solid #323232; 
+          color: #fff;
+          height: 30px;
+          line-height: 30px;
+          width: 300px;
+          padding: 10px;
+        }
+
+  .button{
+           display: inline-block;
+           border-radius: 14px;
+           background-color: #3F516E ;
+           border: none;
+           color: white;
+           text-align: center;
+           font-size: 16px;
+           padding: 12px;
+           width: 220px;
+           transition: all 0.5s;
+           cursor: pointer;
+           margin: 5px;
+           font-weight: bold;
+          }
+
+  .button span {
+           cursor: pointer;
+           display: inline-block;
+           position: relative;
+           transition: 0.5s;               
+               }              
+
+  .button span:after {
+           content: '\00bb';
+           position: absolute;
+           opacity: 0;
+           top: 0;
+           right: -20px;
+           transition: 0.5s;
+                      }
+  .button:hover span {
+           padding-right: 25px;
+                     }
+
+  .button:hover span:after {
+              opacity: 1;
+              right: 0;
+              }
+                             				
+  body {
+       background: #80b3ff;
+       background-repeat: no-repeat;
+       background-position: 0 0;
+      -moz-background-size: cover;
+      -webkit-background-size: cover;
+       background-size: 1500px 1000px;
+        }
+
+
+  div.Posizione {
+           position: absolute;
+           top: 0px;
+           right: -130px;
+           width: 580px;
+                }
+                
+  div.Posizione1 {
+           position: absolute;
+           top: 20px;
+           right: 385px;
+           width: 580px;
+                }
+  div.frame {
+
+        position: absolute;
+        right: 740px;
+        width: 580px;
+        top: -5px;
+            }
+
+ div.Bottone {
+  			width:150px;
+          	}
+
+ div.name {
+       margin: 0px auto 0px auto;
+          }
+
+
+
+/*Stile per la tabella*/
+
+
+                			h1,h3{ 
+                  				color: white;
+                  				font-weight: bold;
+                  				}
+
+                  			
+                  			th, td {
+                      			text-align: center;
+                      			padding: 2px;
+                  				}
+
+                  			td:nth-child(even){ 
+                  				text-align:left;
+                  				font-weight:bold;
+                  					 }
+                                                        
+                                        td:nth-child(odd){ 
+                  				text-align:left;
+                  				font-weight:bold;
+                  					 }
+
+                  			tr:nth-child(odd){background-color: #BFBFFF}
+                  			tr:nth-child(even){background-color: #E0E0FF}
+
+                  			th {
+                      			background-color: #8090FF;
+                      			color: white;
+                  				}
+
+                  			table, td, th {
+                      			border: 1px solid black;
+                  				}
+
+                  			table {
+                      			width: 70%;
+                  				border-collapse: collapse; 
+                  				}
+
+                  			td {
+                      			height: 20px;
+                  			}
